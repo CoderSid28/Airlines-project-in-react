@@ -11,7 +11,7 @@ const Contacts = () => {
     <>
       <title>Contact Us - Air Lines International</title>
 
-      <div className="min-h-screen bg-gradient-to-b from-sky-100 via-white to-sky-50 text-gray-800 relative overflow-hidden">
+      <div className="min-h-screen bg-linear-to-b from-sky-100 via-white to-sky-50 text-gray-800 relative overflow-hidden">
         {/* Background floating gradient orbs */}
         <div className="absolute -top-20 -left-20 w-96 h-96 bg-sky-200 rounded-full blur-3xl opacity-30"></div>
         <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-sky-300 rounded-full blur-3xl opacity-30"></div>
@@ -116,7 +116,7 @@ const Contacts = () => {
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-10 bg-gradient-to-r from-sky-100 to-sky-50 py-20 px-8 md:px-16 lg:px-48"
+          className="relative z-10 bg-linear-to-r from-sky-100 to-sky-50 py-20 px-8 md:px-16 lg:px-48"
         >
           <div className="bg-white/80 backdrop-blur-xl p-12 rounded-3xl shadow-xl border border-white/40">
             <h3 className="text-3xl font-bold text-center text-sky-800 mb-10">
